@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #1b1b1b;
+  color: white;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-family: fira;
+}
