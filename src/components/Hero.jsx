@@ -29,11 +29,11 @@ export default function Hero() {
             alt="Line 2"
             className="absolute left-[0px] translate-x-8 top-20"
           />
-          <div className="relative ">
+          <div className="relative overflow-visible">
             <img
               src={selfPortrait}
               alt="Hero Image"
-              className="relative z-10"
+              className=" w-[600px] h-[384px]"
             />
             {/* top fade */}
             <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-[#1b1b1b] to-transparent z-20"></div>
