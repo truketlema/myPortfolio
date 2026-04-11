@@ -42,8 +42,8 @@ export default function Projects() {
             src="https://movie-app-t.netlify.app/"
             className="w-full h-[250px] mb-4 rounded "
           ></iframe>
-
-          <div className="flex gap-4">
+          <div className="flex gap-4 px-6 pb-2">
+            {" "}
             <a
               href="https://github.com/truketlema/My_Movie_App"
               className=" ml-2 border border-gray-700 px-3 py-1 transition-all duration-200 hover:border-[#c778dd] hover:text-black hover:bg-[#c778dd]"

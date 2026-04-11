@@ -15,7 +15,7 @@ import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="px-6 md:px-16 xl:px-[120px] overflow-hidden">
+    <div className=" px-4 sm:px-6 md:px-16 xl:px-[120px] overflow-hidden">
       <img src={line} className="absolute top-0  left-6 z-0" />
       <a
         href="https://github.com/truketlema"

@@ -18,7 +18,7 @@ export default function Skills() {
       {/* Main Section */}
       <div className="flex w-full gap-10 ">
         {/* LEFT SIDE → Images */}
-        <div className="relative md:w-1/2 h-[300px]">
+        <div className="relative hidden md:block md:w-1/2 h-[300px]">
           <img src={Dots} className="absolute top-4 left-0 w-16" />
           <img src={rectangle3} className="absolute top-0 left-52" />
           <img src={line2} className="absolute w-24 top-40 left-4" />
@@ -27,7 +27,7 @@ export default function Skills() {
         </div>
 
         {/* RIGHT SIDE → Skills */}
-        <div className="grid grid-cols-3 gap-2 md:w-1/2">
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 md:w-1/2">
           {/* Languages */}
           <div className="border border-gray-400 ">
             <h3 className="mb-2 text-white px-3">Languages</h3>
