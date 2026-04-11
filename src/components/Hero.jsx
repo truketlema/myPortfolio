@@ -34,7 +34,7 @@ export default function Hero() {
             {/* top fade */}
             <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-[#1b1b1b] to-transparent z-20"></div>
             <div className="absolute bottom-0 left-0 w-full h-20 bg-gradient-to-t from-[#1b1b1b] to-transparent z-10"></div>
-            <div className=" right-10 absolute bottom-[-20px] left-0 flex gap-2 border-gray-400 border pt-1 pl-1  z-10 ">
+            <div className=" right-10 relative bottom-[-20px] left-0 flex gap-2 border-gray-400 border pt-1 pl-1  z-10 ">
               <div className=" w-5 h-5 bg-[#c778dd]"></div>
               <span>Hello, I’m Truket Lema</span>
             </div>
