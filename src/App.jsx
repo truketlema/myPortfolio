@@ -47,7 +47,7 @@ function App() {
       <img
         src={rectangle2}
         alt="rectangle2"
-        className="absolute xl:right-0 -right-14 top-full mt-[1200px] md:mt-[510px] z-0 oveflow-hidden"
+        className="absolute xl:right-0 hidden md:block top-full mt-[1200px] md:mt-[510px] z-0 oveflow-hidden"
       />
       <img
         src={dots2}
