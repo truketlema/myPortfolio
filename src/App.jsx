@@ -15,7 +15,7 @@ import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 function App() {
   return (
-    <div className="px-12 :px-16 xl:px-[120px] overflow-hidden">
+    <div className="px-6 md:px-16 xl:px-[120px] overflow-hidden">
       <img src={line} className="absolute top-0  left-6 z-0" />
       <a
         href="https://github.com/truketlema"
@@ -47,12 +47,12 @@ function App() {
       <img
         src={rectangle2}
         alt="rectangle2"
-        className="absolute xl:right-0 -right-6 top-full mt-[510px] z-0 oveflow-hidden"
+        className="absolute xl:right-0 -right-8 top-full mt-[1200px] md:mt-[510px] z-0 oveflow-hidden"
       />
       <img
         src={dots2}
         alt="dots2"
-        className="absolute left-0 top-full mt-[240px] z-0"
+        className="hidden md:block absolute left-0 top-full mt-[240px] z-0"
       />
       <Skills />
       <div className="relative">

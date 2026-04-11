@@ -6,7 +6,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="navbar flex">
+    <nav className="navbar flex px-6">
       <div className="navbar-content flex justify-between items-center w-full py-4">
         {" "}
         {/* Logo / Title */}
