@@ -59,7 +59,7 @@ export default function Hero() {
             <p class="text-xl">Simplicity is the ultimate sophistication.</p>
           </div>
 
-          <div class="relative border border-gray-500 ml-auto w-fit px-8 py-2">
+          <div class="relative border border-gray-500 ml-auto w-fit px-2 lg:px-8 py-2">
             <span class="absolute -top-3 right-3 text-3xl text-gray-400  px-1">
               ”
             </span>
