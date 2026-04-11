@@ -12,9 +12,10 @@ import About from "./components/About";
 import Dots from "./assets/Dots.png";
 import line4 from "./assets/line4.png";
 import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
 function App() {
   return (
-    <>
+    <div className="px-16 xl:px-[120px] overflow-hidden">
       <img src={line} className="absolute top-0  left-6 z-0" />
       <a
         href="https://github.com/truketlema"
@@ -36,13 +37,17 @@ function App() {
       <Navbar />
       <Hero />
       <div className="justify-end absolute right-0 -bottom-24 z-0">
-        <img src={rectangle1} alt="rectangle1" className="justify-end w-16" />
+        <img
+          src={rectangle1}
+          alt="rectangle1"
+          className="hidden md:block justify-end w-16"
+        />
       </div>
       <Projects />
       <img
         src={rectangle2}
         alt="rectangle2"
-        className="absolute right-0 top-full mt-[510px] z-0"
+        className="absolute xl:right-0 -right-6 top-full mt-[510px] z-0 oveflow-hidden"
       />
       <img
         src={dots2}
@@ -55,30 +60,30 @@ function App() {
         <img
           src={rectangle2}
           alt="rectangle2"
-          className="absolute left-[-120px] bottom-48  z-0 transform -scale-x-100"
-        />
-        <img src={Dots} alt="dots" className="absolute top-28 right-56 w-16" />
-        <img
-          src={Dots}
-          alt="dots"
-          className="absolute top-[270px] right-6 w-16  -scale-x-125"
+          className="absolute left-[-90px] md:left-[-80px] xl:left-[-120px] bottom-48 z-0 transform -scale-x-100"
         />
         <img
           src={Dots}
           alt="dots"
-          className="absolute top-[350px] right-[-120px] w-16 -scale-y-125"
+          className="absolute top-28 lg:right-80  right-44 md:right-72 xl:right-56 w-16"
         />
         <img
-          src={line4}
-          alt="line4"
-          className="absolute bottom-[-3px] right-0 transform -scale-y-50 "
+          src={Dots}
+          alt="dots"
+          className="absolute top-[210px] md:top-[270px] right-6 w-16  -scale-x-125"
+        />
+        <img
+          src={Dots}
+          alt="dots"
+          className="absolute top-[320px] md:top-[400px] right-[-60px] xl:right-[-120px] w-16 -scale-y-125 "
         />
       </div>
       <br /> <br />
-      {/* <Contacts /> */}
-      <hr className="width-full" />
-      <h1>Truket</h1>
-    </>
+      <div className="mx-[-120px]">
+        <hr className="border-t-2 border-gray-300 mt-8 mb-6" />
+      </div>{" "}
+      <Footer />
+    </div>
   );
 }
 

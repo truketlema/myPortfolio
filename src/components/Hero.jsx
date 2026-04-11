@@ -4,26 +4,22 @@ import Dots from "../assets/Dots.png";
 export default function Hero() {
   return (
     <>
-      <div className="flex mt-10 items-center leading-6 ">
-        <div className="flex-1 items-start flex flex-col gap-4">
+      <div className=" flex flex-col md:flex-row  mt-10 items-center leading-6 ">
+        <div className=" lg:flex-1 items-start flex flex-col gap-4">
           {" "}
-          <h1 className="text-3xl font-semibold leading-10">
+          <h1 className="text-3xl font-semibold leading-10 tracking-wider ">
             <span className="text-[#c778dd]">
               Software Engineering student{" "}
             </span>
-            <br />
             and
             <span className="text-[#c778dd]"> front-end developer</span>
           </h1>
-          <p>
-            I craft responsive websites where technologies <br />
-            meet creativity
-          </p>
+          <p>I craft responsive websites where technologies meet creativity</p>
           <button className="border border-[#c778dd] px-5 py-1 transition duration-300 hover:bg-[#c778dd] hover:text-black">
-            Contact me!!
+            Contact me
           </button>
         </div>
-        <div className=" flex-1 flex justify-end relative ">
+        <div className=" lg:flex-1 flex justify-end relative ">
           <img
             src={line2}
             alt="Line 2"
@@ -33,7 +29,7 @@ export default function Hero() {
             <img
               src={selfPortrait}
               alt="Hero Image"
-              className=" w-[600px] h-[384px]"
+              className=" xl:w-[600px] xl:h-[384px] "
             />
             {/* top fade */}
             <div className="absolute top-0 left-0 w-full h-20 bg-gradient-to-b from-[#1b1b1b] to-transparent z-20"></div>

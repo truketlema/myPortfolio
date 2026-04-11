@@ -1,7 +1,7 @@
 import line3 from "../assets/line3.png";
 export default function Projects() {
   return (
-    <div className="text-white py-10">
+    <div className="text-white py-10 overflow-hidden">
       <div className="flex place-items-baseline gap-4">
         <h2 className="text-3xl mb-6">
           <span className="text-[#c778dd]">#</span>projects
@@ -9,7 +9,7 @@ export default function Projects() {
         <img src={line3} alt="line3" />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* Card */}
         <div className="bg-[#1a1a1a]  rounded-lg shadow-lg border border-gray-700">
           <h3 className="text-xl font-semibold my-3 ml-6">My Poetry</h3>
@@ -35,7 +35,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="bg-[#1a1a1a] rounded-lg shadow-lg border border-gray-700">
+        <div className="bg-[#1a1a1a] rounded-lg shadow-lg border border-gray-700 lg:hidden">
           <h3 className="text-xl font-semibold my-3 ml-6">Movie App</h3>
 
           <iframe
