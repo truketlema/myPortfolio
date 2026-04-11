@@ -4,7 +4,7 @@ import Dots from "../assets/Dots.png";
 export default function Hero() {
   return (
     <>
-      <div className=" flex flex-col md:flex-row  mt-10 items-center leading-6 px-6">
+      <div className="  flex flex-col md:flex-row  mt-10 items-center leading-6 px-8">
         <div className=" lg:flex-1 items-start flex flex-col gap-4">
           {" "}
           <h1 className="text-3xl font-semibold leading-10 tracking-wider ">

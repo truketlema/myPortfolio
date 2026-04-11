@@ -11,18 +11,7 @@ export default function Contacts() {
               <GiButterfly className="text-3xl text-white inline" />
               Truket
             </h1>
-            <a
-              href="mailto:truketlema9489@gmail.com"
-              className=" text-gray-400 hover:text-[#c778dd] cursor-pointer mt-0.5 tracking-wider"
-            >
-              {" "}
-              truketlema9489@gmail.com
-            </a>
           </div>
-
-          <p className="leading-8 tracking-wider pl-2 text-gray-300">
-            Software Engineer and Front-end Developer
-          </p>
         </div>
         <div className="Contact">
           <h1 className="mb-2">Contact me</h1>
@@ -51,7 +40,7 @@ export default function Contacts() {
         </div>
       </div>
 
-      <div className="tracking-wider text-gray-400 text-center ">
+      <div className="tracking-wider text-gray-400 text-center mt-3 ">
         <p>© Copyright 2022. Made by Truket</p>
       </div>
     </div>

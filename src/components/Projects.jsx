@@ -13,7 +13,6 @@ export default function Projects() {
         {/* Card */}
         <div className="bg-[#1a1a1a]  rounded-lg shadow-lg border border-gray-700">
           <h3 className="text-xl font-semibold my-3 ml-6">My Poetry</h3>
-
           <iframe
             src="https://avril-b6c4c.web.app/"
             className="w-full h-[250px] mb-4 rounded"

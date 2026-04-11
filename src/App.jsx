@@ -65,17 +65,17 @@ function App() {
         <img
           src={Dots}
           alt="dots"
-          className="absolute top-28 lg:right-80  right-44 md:right-72 xl:right-56 w-16"
+          className="absolute top-96 sm:top-28 lg:right-80  sm:right-44 md:right-72 xl:right-56 w-16"
         />
         <img
           src={Dots}
           alt="dots"
-          className="absolute top-[210px] md:top-[270px] right-6 w-16  -scale-x-125"
+          className="absolute top-[510px] sm:top-[210px] md:top-[270px] right-56 sm:right-6 w-16  -scale-x-125"
         />
         <img
           src={Dots}
           alt="dots"
-          className="absolute top-[320px] md:top-[400px] right-[-60px] xl:right-[-120px] w-16 -scale-y-125 "
+          className="absolute top-[590px] sm:top-[320px] md:top-[400px] -right-[-50px] sm:right-[-60px] xl:right-[-120px] w-16 -scale-y-125 "
         />
       </div>
       <br /> <br />

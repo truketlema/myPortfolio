@@ -7,8 +7,8 @@ export default function About() {
   const [expanded, setExpanded] = useState(false);
   return (
     <>
-      <div className=" pl-4 flex  lg:gap-24 xl:gap-48 mt-28 overflow-hidden">
-        <div className="w-1/2">
+      <div className="pl-4 flex flex-col sm:flex-row lg:gap-24 xl:gap-48 mt-28 overflow-hidden">
+        <div className="sm:w-1/2">
           <p className="text-gray-400 tracking-wider">
             <div className="flex place-items-baseline gap-4">
               <h2 className="text-3xl mb-6 text-white">
@@ -41,7 +41,7 @@ export default function About() {
             are practical, accessible, and impactful.
           </span>
           {/* Read more button only on small/medium screens */}
-          <div className="mt-5">
+          <div className="sm:mt-5">
             <a
               href="public/Truket_Lema_Resume.pdf"
               target="_blank"
