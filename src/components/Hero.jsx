@@ -51,7 +51,7 @@ export default function Hero() {
       </div>
       <div className="mt-28 flex items-center justify-center">
         <div class="relative w-fit text-white">
-          <div class="relative border border-gray-500 p-4 w-[500px]">
+          <div class="relative border border-gray-500 p-4 md:w-[500px]">
             <span class="absolute -top-3 left-3 text-3xl text-gray-400  px-1">
               “
             </span>
