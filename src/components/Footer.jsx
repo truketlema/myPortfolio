@@ -41,7 +41,7 @@ export default function Contacts() {
       </div>
 
       <div className="tracking-wider text-gray-400 text-center mt-3 ">
-        <p>© Copyright 2022. Made by Truket</p>
+        <p>© Copyright 2026. Made by Truket</p>
       </div>
     </div>
   );
