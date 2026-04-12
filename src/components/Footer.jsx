@@ -2,7 +2,7 @@ import { GiButterfly } from "react-icons/gi";
 import { FaTelegramPlane, FaLinkedin, FaEnvelope } from "react-icons/fa";
 export default function Contacts() {
   return (
-    <div className="flex-col">
+    <div id="footer" className="flex-col">
       <div className="flex justify-between ">
         <div className="flex flex-col gap-4 ">
           <div className="flex flex-row gap-8">

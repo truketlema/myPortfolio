@@ -7,7 +7,10 @@ export default function About() {
   const [expanded, setExpanded] = useState(false);
   return (
     <>
-      <div className="pl-4 flex flex-col sm:flex-row lg:gap-24 xl:gap-48 mt-10 overflow-hidden">
+      <div
+        id="about"
+        className="pl-4 flex flex-col sm:flex-row lg:gap-24 xl:gap-48 mt-10 overflow-hidden"
+      >
         <div className="sm:w-1/2">
           <p className="text-gray-400 tracking-wider">
             <div className="flex place-items-baseline gap-4">
