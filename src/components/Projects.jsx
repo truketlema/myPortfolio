@@ -29,7 +29,7 @@ export default function Projects() {
               href="https://avril-b6c4c.web.app/"
               className=" ml-2 border border-[#c778dd] px-3 py-1 transition-all duration-200 hover:border-[#c778dd] hover:text-black hover:bg-[#c778dd]"
             >
-              Live
+              Live Demo
             </a>
           </div>
         </div>
